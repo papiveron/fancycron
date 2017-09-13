@@ -1,0 +1,315 @@
+% ******************************************************************************%
+%                                                                               % 
+%         2013_CDC2_FR_ultimaade.tex for Ulmtimaade Project specification       %
+%                Made by: Eugène NGONTANG <ngonta_e@epitech.net>                %
+%                                                                               % 
+% ******************************************************************************%
+
+\documentclass{ultimaade-fr}
+
+
+
+% ******************************************************************************%
+%                                                                               % 
+%                                 Prologue                                      %
+%                                                                               % 
+% ******************************************************************************%
+\begin{document}
+
+
+
+\title{\texttt{ULTIMAADE}}
+\subtitle{Cahier de charges Version 1.0.1}
+
+%%\member{Alexandre Da-Silva}{da-sil_k@epitech.net}
+%%\member{Raphaël Lichan}{lichan_a@epitech.net}
+%%\member{Adrien Barrau}{barrau_a@epitech.net}
+\member{Ultimaade Team}{ultimaade@gmail.com}
+\member{Eugène NGONTANG}{ngonta_e@epitech.net}
+\date{}
+
+\summary
+{ 
+  ULTIMAADE est une application multiplateforme, de création de support multimédia. Le projet  est  né d’un  besoin  de  plus  en  plus  croissant	de  l'utilisation  pédagogique  du multimédia, dans le domaine open source.
+  Dans un sens plus large l'application est destinée à tout type d'utilisateur (Technicien ou non, enfant ou adulte), désirant créer une application multimédia complète, autonome et multiplateforme.
+
+  Ce document représente le cahier des charges destiné à l’équipe de développement du projet pour  prendre en compte les besoins liés à sa réalisation et aux destinataires du projet.
+  Il décrit également la manière dont l’équipe prendra en charge l’ensemble des phases du projet (analyse, conception, développement, documentation), les paramétrages, la reprise des données ainsi qu’un ensemble de tutoriels et le support pour l’utilisation du logiciel. Nous  aborderons  dans  un  premier  temps  le  contexte  général  du  projet et  les  parties
+  impliquées. Ensuite nous présenterons le projet d’un point de vue fonctionnel, puis nous décrirons les prestations attendues de l’équipe de développement, et nous terminerons par une partie annexe où sera définie la fiche de réalisation du projet.
+
+}
+
+
+\maketitle
+
+\tableofcontents
+
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\circ$}
+
+
+
+\newpage
+% ******************************************************************************%
+%                                                                               % 
+%                                 GENERALITES                                    %
+%                                                                               % 
+% ******************************************************************************%
+\chapter{GENERALITES}
+
+
+\section{Contexte}
+
+Suite à l’évolution rapide des technologies, l’école EPITECH membre du groupe IONIS s’est constituée en tant qu’institution académique, dans le but de former des futurs experts en technologies de l’information.
+Dans cette optique l’école a mis sur pied une stratégie consistant pour les étudiants de chaque promotion, en la conception et la réalisation d’un projet innovant, et répondant à une problématique concrète de l’heure.
+Ce concept  s’appelle  EIP  (Epitech  Innovative  Project).  Pour  les  étudiants,  l’EIP  réalisé représente le projet de fin d’étude, et conditionne le diplôme d’expert décerné par l’école. C’est dans ce contexte que le  groupe ULTIMAADE s’est réuni autour du projet qui fait l’objet du présent cahier des charges.
+
+\vspace{20pt}
+
+\section{Présentation générale d'EPITECH }
+
+\subsection{Rappel sur l’EIP}
+Comme mentionné ci-dessus, EIP est un concept EPITECH dont le but est la valorisation des compétences  acquises au cours du cursus EPITECH, par la création et la réalisation d'un projet novateur, utile et qui sera utilisé.
+
+\subsection{La mission d’EPITECH}
+
+EPITECH	s’est  donné  pour  vocation  de  produire  des  experts  et  développeurs  avérés, capables d’apporter des réponses concrètes et efficaces aux problèmes actuels et à venir, qui mélangent considérations matérielles et logicielles.
+
+La formation au sein de l’établissement est pratiquée dans un cadre pseudo professionnel. Les étudiants sont régulièrement appelés à rendre des projets qu’ils développent suivant des descriptions spécifiques et précises, et dans les délais impartis. C’est de cette façon que chacun des acquis de l’étudiant est validé.
+
+\newpage
+  % ******************************************************************************%
+  %                                                                               % 
+  %                            LE GROUPE ULTIMAADE                                %
+  %                                                                               % 
+  % ******************************************************************************%
+ \chapter{LE GROUPE ULTIMAADE}
+
+\section{Le groupe}
+
+ULTIMAADE  est un groupe d'étudiants d’EPITECH de la promotion 2013, qui s'est réuni dans le cadre de l'EIP, autour d'une idée: celle de développer un logiciel libre de création multimédia.
+
+\vspace{20pt}
+
+\section{Partenaires}
+Pour la réalisation de son projet EIP, le  groupe a  sollicité et obtenu le  partenariat de l'entreprise Ryxeo Sarl, groupe d'experts en logiciels libres basé  à Bordeaux.
+Le groupe Ryxeo joue un rôle stratégique dans le projet ULTIMAADE, car le développement du logiciel en  question part d’un projet existant et hébergé chez Ryxeo dans la série de projets Abulédu http://www.abuledu.org/leterrier/kidistb.
+Nous disposons à cet effet d’une forge logicielle hébergée chez Ryxeo Sarl, contenant la plupart des outils nécessaires à la réalisation du projet.
+
+\vspace{20pt}
+
+\section{Relations entre l’équipe de développement et EPITECH}
+
+Dans le contexte où nous nous situons, la proposition de l’idée par le groupe ULTIMAADE à l’équipe   pédagogique	de  l’école  peut  être  vue  comme  une  réponse  à  un  appel  à propositions.
+En tant que soumissionnaire à l’appel à propositions, le groupe ULTIMAADE doit mettre en
+œuvre les moyens pour assurer pour le compte d’EPITECH, l’ensemble des prestations demandées pour une déclaration donnée.
+Dans	un but de compréhension, ces prestations sont décrites par lot dans le présent document.
+Pour EPITECH, le responsable du projet est un membre de la direction EIP.
+Ainsi, le groupe ULTIMAADE en tant que prestataire devra désigner des personnes responsables vis-à-vis d’EPITECH (voir Fiche N\textdegree 4 Liste des responsables).
+Coté  EPITECH,  une  personne  sera  donc  assignée  à  la  maîtrise  d’ouvrage  et  aura  un
+assistant apte à le suppléer. De même, le groupe ULTIMAADE devra désigner une personne chargée du pilotage et du suivi du projet ainsi qu’un assistant.
+En  cas  d’escalade  sur  incidents,  le  prestataire(ULTIMAADE)  devra  désigner  la  ou  les personnes responsables avec leur titre respectif.
+
+\newpage
+  % ******************************************************************************%
+  %                                                                               % 
+  %                             PRESENTATION DU PROJET                            %
+  %                                                                               % 
+  % ******************************************************************************%
+\chapter{PRESENTATION DU PROJET}
+
+Pour  répondre  à  une  demande  de  plus  croissante  de  l’utilisation  pédagogique  du multimédia dans la communauté open source (utilisateurs de logiciels libres), ULTIMAADE propose une solution qui viendra  combler un grand manque dans le domaine du logiciel libre. Ceci permettra par la suite à des enseignants de créer des applications pédagogiques selon  leurs  domaines  d’expertise,  et  à  un  utilisateur  technicien  ou  non,  de  créer  une application multimédia autonome, dans un environnement ouvert et libre.
+L’objectif de l’outil est d’avoir une perception orientée « usage » et non « technique », la technique étant  au  service du monde éducatif et non l’inverse. Par ailleurs l’application aura pour principale caractéristique d’être intuitive et facile d’utilisation.
+
+
+
+\section{La solution à développer}
+
+L’application Ultimaade doit être open source et multi plate-forme. Elle disposera des modules suivants, qui sont seront conçus comme des éditeurs          pour la phase de développement :
+\begin{itemize}
+\item \texttt{Dessin}   qui   permettra   aux   utilisateurs   désirant   le   faire   directement   dans l'application, de dessiner rapidement leurs objets.
+\item \texttt{Animation}, grâce auquel les objets dessinés ou importés depuis un autre système seront animés.
+\item \texttt{Gestion  de  la  scène}  permettant  d'éditer,  préparer  la  scène  pour  le  rendu  des animations.
+\item \texttt{Montages/Interactions}   qui   permettra   de   créer   des   films/clips   en enchainant différentes scènes.
+\item \texttt{Gestion  d’évènements},  permettant  à  l'utilisateur  de  définir  et  paramétrer  les interactions dans son application.
+\item \texttt{Création de support multimédia/Export}, permettant à l’utilisateur de créer un CD-ROM,exporter un projet sur le web.
+\item \texttt{Ordonnancement}, module de  gestion  de  l’ensemble  du  système  qui  est  simplement  le moteur de l’application, constituant sa base de fonctionnement.\
+\end{itemize}
+
+
+\subsection{Module de dessin}
+Ce module implémentera un éditeur d’objets (sprites), et permettra:
+
+l’insertion d’objets de départ:
+\begin{itemize}
+\item Les objets peuvent avoir été créés dans un logiciel de dessin ou directement sous Ultimaade.	Comme	mentionné dans	l’étude	technique	détaillée	précédant ce document, la solution proposera une bibliothèque de sprites de bases utilisable dans ce module.
+\item Objets graphiques. Exemple : .bmp, .gif, .jpg, .png....
+\item Objets vectoriels. Exemple : .eps, .ps.....
+\end{itemize}
+la création et modification des sprites
+\begin{itemize}
+\item Créer des dessins
+\item définition des « zones sensibles » sur lesquelles l'objet réagit ou peut réagir
+\item Changer l'apparence de l'objet (forme, couleur de fond, contour, etc)
+\item Modifier les caractéristiques de l’objet/sprite telle que la taille de l'objet(longueur, largeur)
+\end{itemize}
+
+\subsection{Module d’animation}
+Il est question dans ce module de développer pour l’utilisateur des commandes menu simples. Ces commandes lui permettront de créer des interfaces expressives, et du contenu interactif sans aucune programmation. L'utilisateur devra pourra :
+\begin{itemize}
+\item Organiser une suite d'image pour en faire une animation
+\item Appliquer des transformations telles que la transparence, la rotation sur l'objet tout au long de son animation
+\item Ajuster le temps de transition entre chaque image
+\item Choisir le type de transition entre chaque image (fondu, direct, ...)
+\item Exporter l'animation vers un autre format (exmple: gif)
+\end{itemize}
+
+\subsection{Module de gestion de la scène}
+Ce module fera abstraction d’un éditeur de « monde » (on parlera de plateau ou scène)
+dans lequel les animations et interactions seront visibles. Il permettra à l’utilisateur de :
+\begin{itemize}
+\item Insérer des objets dans la scène
+\item créer un point de départ pour chaque objet utilisé dans son projet
+\item définir les zones sensibles du plateau et de créer le décor pour un film
+\item définir  et  paramétrer  la  vue  qu’il  souhaite  de  son  monde,  dans  le  cas  d’une application 3D
+\item Transformer un objet (Objet en bouton, objet en graphique) et lui permettre de choisir son centre d’orientation
+\end{itemize}
+
+\subsection{Module de montage}
+L’utilisateur pourra grâce à ce module produire un clip en combinant plusieurs scènes qui s’enchainent en temps réel.
+L’accent sera mis sur l’aspect temps réel dans le développement de ce module, afin de garantir au développeur la possibilité de travailler en toute confiance, et de produire des
+contenus fiables pour les utilisateurs de son application finale.
+Le film pourra être également réalisé à partir des vidéos importées et introduites dans la scène. A cet effet la solution devra supporter les formats de vidéo les plus connus.
+L’utilisateur pourra grâce à ce module :
+\begin{itemize}
+\item Importer des vidéos et audios
+\item Ajouter une TimeLine à la vidéo et l'audio dans le montage
+\item Arrêter/suspendre une vidéo ou un son en cours d'exécution
+\item Créer des effets visuels (par exemple la rotation d'un texte)
+\item Faire des effets de transition entre différentes vidéos, ainsi que des effets plus spéciaux comme rendre la vidéo miroir
+\item Exporter son film sous différents formats (par exemple: .avi, .mkv)
+\end{itemize}
+
+\subsection{Module de gestion d’évènements}
+Ce module implémentera un éditeur d’évènements + TimeLine (frise chronologique)  que l’on pourra définir dans un menu prévu à cet effet. Il permettra à l’utilisateur de :
+\begin{itemize}
+\item Paramétrer La timeline pour choisir sa durée, sa vitesse (fps = image par seconde)
+\item Utiliser la timeline pour créer une scène différente pour chaque image si l’utilisateur le souhaite
+\item Créer des calques sur la timeline
+\item Créer un évènement qui sera déclenché dès que l’application arrive à un instant T, comme créer un mouvement d’un point A à un point B, une transformation d’objet (exempl : passer d’un carré à un rond), et l’utilisateur pourra se déplacer sur la timeline et la modifier dans l'interface de l'application
+\item définir la manière dont seront gérés les évènements enclenchés lors de l’utilisation de son application
+\item faire évoluer une histoire ou un film dans le temps.
+\end{itemize}
+
+Exemple :
+Pour un oiseau dont toutes les images composant son mouvement ont été créées par un logiciel de dessin, on pourra par exemple importer huit images PNG correspondant à ses différents états, ajouter différents  bruits et diverses autres caractéristiques, puis animer les sprites dans la scène.
+Pour un objet/personnage se  déplaçant d’un point A à un point B, on devra pourvoir enchainer les  sprites un par un, pour donner un effet de déplacement temps réel, ajout d'un bruit + diverses autres caractéristiques.
+
+
+\subsection{Module de création de support multimédia/Export}
+C’est  ce  module  qui  définit  le  côté  multimédia  de  la  solution  à  mettre  en  œuvre.  L'utilisateurs poura :
+\begin{itemize}
+\item intégrer des vidéos, des effets sonores, et des contenus dynamiques aussi facilement que des illustrations statiques, et ajouter des interactions permettant de contrôler la lecture des  vidéos et illustrations. Tout cela se fera via le mode player de l’IHM Ultimaade
+\item obtenir rapidement le résultat souhaité à l’aide de fonctions et outils de mise en forme intégrés à la solution
+\item définir  et  pré  visualiser  facilement  l’aspect  et  le  comportement  des  données dynamiques, sans se connecter à une base de données
+\item tester une scène du projet ou le projet entier grâce à un sous-module « test » à intégrer au présent module
+\item produire un CD-ROM à partir d’une application précédemment conçue
+\item exporter un projet sur le web sous un format de fichier exécutable en ligne dans n’importe  quel  navigateur  conforme  aux  normes  de  la  W3C,  sans  requérir  de
+  plugins particuliers sur le système hôte. Le fichier exporté devra également pouvoir
+  s’exécuter en dehors d’un navigateur.
+
+  Sur la base de ces prérequis un bon choix pour le format de fichier d’export web serait le HTML5, qui se définit aujourd’hui comme le format de référence, définissant une interface indépendante de tout langage de programmation et de toute plate-forme.
+\end{itemize}
+
+\subsection{Le moteur}
+C’est dans ce module que seront définies et implémentées toutes les fonctions permettant à un utilisateur de la solution de contrôler et communiquer avec son ordinateur.
+Il implémentera donc tous les moyens et  outils nécessaires à cette fin. Ces outils devront
+eux, avoir été complètement définis dans une interface spécialement programmée pour la solution.
+Cette interface est l’Interface Homme - Machine de l’application à développer (IHM), et les fonctions définies dans cette dernière le seront sur la base des fonctionnalités acquittées
+par chacun des modules précédemment cités.
+Ainsi tous les  modules développés pour la solution seront utilisés par le  moteur sans dépendre de ce  dernier. Le moteur quant à lui implémentera une interface dans laquelle seront définies toutes les relations entre ce dernier et les autres modules.
+
+
+\subsection{L’IHM}
+Elle devra être déconnectée de l’implémentation réelle des mécanismes contrôlés, et devra couvrir les paradigmes suivants :
+\begin{itemize}
+\item    de la métaphore, permettant de mimer le comportement de l’interface sur celui d’un
+  objet de la vie courante que l’utilisateur maîtrise, tel que le clavier ou la souris
+\item idiomatique, permettant de définir des comportements stéréotypés sur l’interface, afin de les rendre cohérents et simples à apprendre, mais pas nécessairement
+  calqués sur les objets de la vie réelle.
+  Ce paradigme permettra aux utilisateurs n’ayant pas la maîtrise de l’outil informatique, une prise en main rapide de la solution.
+\end{itemize}
+
+L’IHM devra définir un environnement graphique aux utilisateurs d’accéder et d’utiliser les fonctionnalités  de  la solution, à partir d’un écran et de visualiser la réalisation de leur projet.
+Une option dans ce modèle sera de permettre la personnalisation de l’interface par
+l’utilisateur, grâce à une fonctionnalité de prototypage d’interface utilisateur.
+Elle devra également permettre à l’utilisateur de démarrer l’application en mode :
+\begin{itemize}
+\item    éditeur : dans ce mode le développeur/utilisateur peut créer un nouveau projet ou travailler sur un projet existant
+\item   player : ici l’utilisateur peut lire une application multimédia créée avec Ultimaade ou une autre solution.
+  Pour une meilleure flexibilité, ces deux modes devront être accessibles à partir d’un même menu.
+\end{itemize}
+
+\section{Contraintes}
+
+\subsection{Environnement technique}
+
+La solution doit fonctionner sur une machine disposant de :
+\begin{itemize}
+\item 1 ou 2 processeurs dual core,
+\item 2GB  de  mémoire  vive  devraient  suffire  pour  un  fonctionnement  optimal  de  la solution, et si une capacité mémoire supérieure à cette limite est requise, ceci devra faire l’objet d’une justification par l’équipe de développement
+\item 500Mo d’espace disque dur devraient suffire pour l’installation de l’application et de
+  ses fichiers de configuration, ce paramètre peut être revu au cours de l’évolution du projet
+\item La solution doit être portable, sous licence GPL, et fonctionner sur les systèmes Linux/UNIX, Windows et
+  Mac.
+\item    Le gestionnaire de version choisi pour la solution est Bazaar.
+\end{itemize}
+
+\subsection{Méthode de développement de la solution}
+
+Le développement de la solution devra se faire de manière itérative et chaque itération à partir  de  la   deuxième,  devra  inclure  tous  les  modules.  Ci-dessous  une  proposition d’itérations :
+\begin{itemize}
+\item mise en place d’un MCD (Modèle Conceptuel de Données)
+\item conception de la solution :
+  \begin{itemize}
+  \item définition des données (toutes les informations nécessaires au développement des modules de la solution)
+  \item définition des traitements (Modélisation d’un diagramme de séquences)
+  \item description détaillées des données nécessaires à la réalisation du projet
+  \item production d’une maquette IHM pour l’utilisateur final de la solution
+  \end{itemize}
+\item Définition et documentation d'une API pour les plugins de l'application
+\item Mise	en	œuvre	des	fonctionnalités	IHM	basiques :	analyse,	conception, développement et tests unitaires
+\item Mise  en  œuvre  du  cœur/moteur,  intégration  des  cinq  premiers  modules  et implémentations	des	interactions	avec	le	cœur :	analyse,	conception, développement et tests unitaires
+\item   Mise en œuvre d’un environnement permettant d’effectuer des premiers dessins, d’importer  des  sprites  et  d’effectuer  des  actions  basiques :  analyse,  conception, développement et tests unitaires
+\item  Mise  en  œuvre  des  fonctionnalités  de  gestion  de  la  scène :  analyse, conception, développement et tests unitaires
+\item Mise en œuvre des fonctionnalités de montage : analyse, conception, développement et tests unitaires
+\item  Développement   du   module   de   gestion   d’évènements :   analyse,   conception, développement et tests unitaires
+\item Développement	de l'IHM :	analyse,	conception, développement et tests unitaires
+\item Dévemoppement des plugins restant : analyse, conception, développpement et tests. 
+\item Mise en œuvre du module de création de support multimédia : analyse, conception, développement et tests unitaires
+\item  Intégration du  module  de  création  de  support  multimédia  au moteur :  analyse, conception, développement et tests unitaires
+\item  Mise en œuvre  des fonctionnalités de gestion de la scène en 3D(Optionnel pour les premières versions) : analyse, conception, développement et tests unitaires
+\item tests d’usines globaux et de vérification d’aptitude au bon fonctionnement (VABF)
+\end{itemize}
+
+\newpage
+  % ******************************************************************************%
+  %                                                                               % 
+  %                             PRESTATIONS ATTENDUES                             %
+  %                                                                               % 
+  % ******************************************************************************%
+\chapter{PRESTATIONS ATTENDUES}
+
+\section {Approche}
+Pour  la  présentation  des  besoins,  le  projet  Ultimaade  est  découpé  en  lots  selon  une approche fonctionnelle homogène qui est définie ci-après.
+
+
+\colorbox{gray}{%
+   \begin{minipage}{\textwidth}
+      ''texte''
+   \end{minipage}%
+}
+
+  % ******************************************************************************%
+\end{document}
+ 

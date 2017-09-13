@@ -1,0 +1,367 @@
+2012-06-29 16:21:22,210 ERROR job with no id running no command |  Usage: FancyTaskRunner.py id(0 by default) command
+2012-07-02 11:48:52,132 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 11:48:52,137 DEBUG Entering the job runner
+2012-07-02 11:48:52,162 DEBUG history start status not sent!
+2012-07-02 11:48:52,173 DEBUG trying to save ending state out : Monday, July  2, 2012 11:48:52 AM CEST
+, err : 
+2012-07-02 11:48:52,177 DEBUG history saved!
+2012-07-02 11:51:24,010 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 11:51:24,016 DEBUG Entering the job runner
+2012-07-02 11:51:24,047 DEBUG history start status not sent!
+2012-07-02 11:51:24,059 DEBUG trying to save ending state out : Monday, July  2, 2012 11:51:24 AM CEST
+, err : 
+2012-07-02 11:51:24,063 DEBUG history saved!
+2012-07-02 11:58:22,918 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 11:58:22,923 DEBUG Entering the job runner
+2012-07-02 11:58:22,945 DEBUG history start status not sent!
+2012-07-02 11:58:22,957 DEBUG trying to save ending state out : Monday, July  2, 2012 11:58:22 AM CEST
+, err : 
+2012-07-02 11:58:22,961 DEBUG history saved!
+2012-07-02 12:01:14,272 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 12:01:14,278 DEBUG Entering the job runner
+2012-07-02 12:01:14,316 DEBUG history start status not sent!
+2012-07-02 12:01:14,328 DEBUG trying to save ending state out : Monday, July  2, 2012 12:01:14 PM CEST
+, err : 
+2012-07-02 12:01:14,335 DEBUG history saved!
+2012-07-02 12:05:35,858 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 12:05:35,864 DEBUG Entering the job runner
+2012-07-02 12:05:35,929 DEBUG history start status not sent!
+2012-07-02 12:05:35,940 DEBUG trying to save ending state out : Monday, July  2, 2012 12:05:35 PM CEST
+, err : 
+2012-07-02 12:05:35,944 DEBUG history saved!
+2012-07-02 12:05:36,059 DEBUG history not saved!
+2012-07-02 12:05:36,059 DEBUG FancyJobRunner : finished
+2012-07-02 14:45:39,230 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 14:45:39,235 DEBUG Entering the job runner
+2012-07-02 14:45:39,334 DEBUG history start status not sent!
+2012-07-02 14:45:39,345 DEBUG trying to save ending state out : Monday, July  2, 2012  2:45:39 PM CEST
+, err : 
+2012-07-02 14:45:39,349 DEBUG history saved!
+2012-07-02 14:45:39,373 DEBUG history not saved!
+2012-07-02 14:45:39,373 DEBUG FancyJobRunner : finished
+2012-07-02 14:47:36,235 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 14:47:36,241 DEBUG Entering the job runner
+2012-07-02 14:47:36,307 DEBUG history start status not sent!
+2012-07-02 14:47:36,317 DEBUG trying to save ending state out : Monday, July  2, 2012  2:47:36 PM CEST
+, err : 
+2012-07-02 14:47:36,324 DEBUG history saved!
+2012-07-02 14:47:36,347 DEBUG history not saved!
+2012-07-02 14:47:36,347 DEBUG FancyJobRunner : finished
+2012-07-02 14:54:28,966 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 14:54:28,971 DEBUG Entering the job runner
+2012-07-02 14:54:29,074 DEBUG history start status not sent!
+2012-07-02 14:54:29,085 DEBUG trying to save ending state out : Monday, July  2, 2012  2:54:29 PM CEST
+, err : 
+2012-07-02 14:54:29,091 DEBUG history saved!
+2012-07-02 14:54:29,114 DEBUG history not saved!
+2012-07-02 14:54:29,115 DEBUG FancyJobRunner : finished
+2012-07-02 14:59:20,234 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 14:59:20,239 DEBUG Entering the job runner
+2012-07-02 14:59:20,294 DEBUG history start status not sent!
+2012-07-02 14:59:20,305 DEBUG trying to save ending state out : Monday, July  2, 2012  2:59:20 PM CEST
+, err : 
+2012-07-02 14:59:20,309 DEBUG history saved!
+2012-07-02 15:04:39,858 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:04:39,864 DEBUG Entering the job runner
+2012-07-02 15:04:39,920 DEBUG history start status not sent!
+2012-07-02 15:04:39,931 DEBUG trying to save ending state out : Monday, July  2, 2012  3:04:39 PM CEST
+, err : 
+2012-07-02 15:04:39,935 DEBUG history saved!
+2012-07-02 15:16:00,369 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:16:00,374 DEBUG Entering the job runner
+2012-07-02 15:16:00,428 DEBUG history start status not sent!
+2012-07-02 15:16:00,439 DEBUG trying to save ending state out : Monday, July  2, 2012  3:16:00 PM CEST
+, err : 
+2012-07-02 15:16:00,443 DEBUG history saved!
+2012-07-02 15:46:17,431 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:46:17,437 DEBUG Entering the job runner
+2012-07-02 15:46:17,489 DEBUG history start status not sent!
+2012-07-02 15:46:17,500 DEBUG trying to save ending state out : Monday, July  2, 2012  3:46:17 PM CEST
+, err : 
+2012-07-02 15:46:17,504 DEBUG history saved!
+2012-07-02 15:46:17,820 DEBUG history not saved!
+2012-07-02 15:46:17,820 DEBUG FancyJobRunner : finished
+2012-07-02 15:50:54,905 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:50:54,911 DEBUG Entering the job runner
+2012-07-02 15:50:54,964 DEBUG history start status not sent!
+2012-07-02 15:50:54,975 DEBUG trying to save ending state out : Monday, July  2, 2012  3:50:54 PM CEST
+, err : 
+2012-07-02 15:50:54,978 DEBUG history saved!
+2012-07-02 15:50:55,302 DEBUG history not saved!
+2012-07-02 15:50:55,302 DEBUG FancyJobRunner : finished
+2012-07-02 15:55:42,360 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:55:42,365 DEBUG Entering the job runner
+2012-07-02 15:55:42,433 DEBUG trying to save ending state out : Monday, July  2, 2012  3:55:42 PM CEST
+, err : 
+2012-07-02 15:55:42,436 DEBUG history saved!
+2012-07-02 15:55:42,823 DEBUG history not saved!
+2012-07-02 15:55:42,824 DEBUG FancyJobRunner : finished
+2012-07-02 15:56:00,414 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:56:00,420 DEBUG Entering the job runner
+2012-07-02 15:56:00,499 DEBUG trying to save ending state out : Mon Jul  2 15:56:00 CEST 2012
+, err : 
+2012-07-02 15:56:00,503 DEBUG history saved!
+2012-07-02 15:56:00,529 DEBUG history not saved!
+2012-07-02 15:56:00,529 DEBUG FancyJobRunner : finished
+2012-07-02 15:57:00,669 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:57:00,675 DEBUG Entering the job runner
+2012-07-02 15:57:00,735 DEBUG trying to save ending state out : Mon Jul  2 15:57:00 CEST 2012
+, err : 
+2012-07-02 15:57:00,739 DEBUG history saved!
+2012-07-02 15:57:00,769 DEBUG history not saved!
+2012-07-02 15:57:00,770 DEBUG FancyJobRunner : finished
+2012-07-02 15:58:00,903 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-02 15:58:00,913 DEBUG Entering the job runner
+2012-07-02 15:58:01,020 DEBUG trying to save ending state out : Mon Jul  2 15:58:01 CEST 2012
+, err : 
+2012-07-02 15:58:01,024 DEBUG history saved!
+2012-07-02 15:58:01,050 DEBUG history not saved!
+2012-07-02 15:58:01,050 DEBUG FancyJobRunner : finished
+2012-07-03 09:53:45,284 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-03 09:53:45,289 DEBUG Entering the job runner
+2012-07-03 09:53:45,356 DEBUG trying to save ending state out : Tuesday, July  3, 2012  9:53:45 AM CEST
+, err : 
+2012-07-03 09:53:45,360 DEBUG history saved!
+2012-07-03 09:53:45,678 DEBUG history not saved!
+2012-07-03 09:53:45,678 DEBUG FancyJobRunner : finished
+2012-07-03 10:17:20,787 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-03 10:17:20,793 DEBUG Entering the job runner
+2012-07-03 10:17:26,244 DEBUG history start status not sent!
+2012-07-03 10:17:26,255 DEBUG trying to save ending state out : Tuesday, July  3, 2012 10:17:26 AM CEST
+, err : 
+2012-07-03 10:17:26,356 DEBUG history saved!
+2012-07-03 10:18:56,206 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-03 10:18:56,211 DEBUG Entering the job runner
+2012-07-03 10:18:56,283 DEBUG trying to save ending state out : Tuesday, July  3, 2012 10:18:56 AM CEST
+, err : 
+2012-07-03 10:18:56,304 DEBUG history saved!
+2012-07-03 10:18:56,672 DEBUG history not saved!
+2012-07-03 10:18:56,673 DEBUG FancyJobRunner : finished
+2012-07-04 08:56:21,864 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 08:56:21,867 DEBUG Entering the job runner
+2012-07-04 09:05:27,961 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:05:27,964 DEBUG Entering the job runner
+2012-07-04 09:08:56,100 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:08:56,103 DEBUG Entering the job runner
+2012-07-04 09:14:00,207 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:14:00,211 DEBUG Entering the job runner
+2012-07-04 09:16:40,559 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:16:40,562 DEBUG Entering the job runner
+2012-07-04 09:17:38,799 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:17:38,802 DEBUG Entering the job runner
+2012-07-04 09:18:45,390 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:18:45,393 DEBUG Entering the job runner
+2012-07-04 09:18:57,298 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:18:57,301 DEBUG Entering the job runner
+2012-07-04 09:18:59,801 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:18:59,805 DEBUG Entering the job runner
+2012-07-04 09:19:44,986 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:19:44,989 DEBUG Entering the job runner
+2012-07-04 09:20:32,689 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:20:32,693 DEBUG Entering the job runner
+2012-07-04 09:20:51,147 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:20:51,150 DEBUG Entering the job runner
+2012-07-04 09:21:07,514 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:21:07,517 DEBUG Entering the job runner
+2012-07-04 09:21:28,013 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:21:28,016 DEBUG Entering the job runner
+2012-07-04 09:21:51,498 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:21:51,501 DEBUG Entering the job runner
+2012-07-04 09:22:10,746 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:22:10,749 DEBUG Entering the job runner
+2012-07-04 09:24:15,201 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:24:15,205 DEBUG Entering the job runner
+2012-07-04 09:25:18,629 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:25:18,632 DEBUG Entering the job runner
+2012-07-04 09:26:52,773 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:26:52,776 DEBUG Entering the job runner
+2012-07-04 09:28:15,077 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:28:15,080 DEBUG Entering the job runner
+2012-07-04 09:28:15,133 DEBUG history start status not sent!
+2012-07-04 09:28:15,143 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:28:15 AM CEST
+, err : 
+2012-07-04 09:28:15,147 DEBUG history saved!
+2012-07-04 09:32:01,098 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:32:01,101 DEBUG Entering the job runner
+2012-07-04 09:32:01,180 DEBUG history start status not sent!
+2012-07-04 09:32:01,190 DEBUG trying to save ending state out : Wed Jul  4 09:32:01 CEST 2012
+, err : 
+2012-07-04 09:32:01,213 DEBUG history saved!
+2012-07-04 09:33:00,377 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:33:00,380 DEBUG Entering the job runner
+2012-07-04 09:33:00,431 DEBUG history start status not sent!
+2012-07-04 09:33:00,441 DEBUG trying to save ending state out : Wed Jul  4 09:33:00 CEST 2012
+, err : 
+2012-07-04 09:33:00,445 DEBUG history saved!
+2012-07-04 09:34:00,595 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:34:00,598 DEBUG Entering the job runner
+2012-07-04 09:34:00,648 DEBUG history start status not sent!
+2012-07-04 09:34:00,657 DEBUG trying to save ending state out : Wed Jul  4 09:34:00 CEST 2012
+, err : 
+2012-07-04 09:34:00,662 DEBUG history saved!
+2012-07-04 09:35:00,812 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:35:00,815 DEBUG Entering the job runner
+2012-07-04 09:35:00,867 DEBUG history start status not sent!
+2012-07-04 09:35:00,877 DEBUG trying to save ending state out : Wed Jul  4 09:35:00 CEST 2012
+, err : 
+2012-07-04 09:35:00,880 DEBUG history saved!
+2012-07-04 09:36:01,033 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:36:01,036 DEBUG Entering the job runner
+2012-07-04 09:36:01,088 DEBUG history start status not sent!
+2012-07-04 09:36:01,098 DEBUG trying to save ending state out : Wed Jul  4 09:36:01 CEST 2012
+, err : 
+2012-07-04 09:36:01,102 DEBUG history saved!
+2012-07-04 09:37:00,251 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:37:00,254 DEBUG Entering the job runner
+2012-07-04 09:38:00,439 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:38:00,442 DEBUG Entering the job runner
+2012-07-04 09:39:00,621 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:39:00,624 DEBUG Entering the job runner
+2012-07-04 09:39:00,678 DEBUG history start status not sent!
+2012-07-04 09:39:00,687 DEBUG trying to save ending state out : Wed Jul  4 09:39:00 CEST 2012
+, err : 
+2012-07-04 09:39:00,691 DEBUG history saved!
+2012-07-04 09:40:00,841 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:40:00,844 DEBUG Entering the job runner
+2012-07-04 09:42:29,781 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:42:29,784 DEBUG Entering the job runner
+2012-07-04 09:42:29,836 DEBUG history start status not sent!
+2012-07-04 09:42:29,847 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:42:29 AM CEST
+, err : 
+2012-07-04 09:42:29,851 DEBUG history saved!
+2012-07-04 09:42:46,725 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:42:46,728 DEBUG Entering the job runner
+2012-07-04 09:42:46,781 DEBUG history start status not sent!
+2012-07-04 09:42:46,791 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:42:46 AM CEST
+, err : 
+2012-07-04 09:42:46,795 DEBUG history saved!
+2012-07-04 09:42:59,233 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:42:59,236 DEBUG Entering the job runner
+2012-07-04 09:42:59,289 DEBUG history start status not sent!
+2012-07-04 09:42:59,299 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:42:59 AM CEST
+, err : 
+2012-07-04 09:42:59,328 DEBUG history saved!
+2012-07-04 09:51:23,010 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:51:23,013 DEBUG Entering the job runner
+2012-07-04 09:52:03,776 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:52:03,779 DEBUG Entering the job runner
+2012-07-04 09:53:14,232 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:53:14,235 DEBUG Entering the job runner
+2012-07-04 09:53:14,322 DEBUG history start status not sent!
+2012-07-04 09:53:14,333 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:53:14 AM CEST
+, err : 
+2012-07-04 09:53:14,337 DEBUG history saved!
+2012-07-04 09:53:14,384 DEBUG history not saved!
+2012-07-04 09:53:14,384 DEBUG FancyJobRunner : finished
+2012-07-04 09:53:56,354 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:53:56,357 DEBUG Entering the job runner
+2012-07-04 09:53:56,410 DEBUG history start status not sent!
+2012-07-04 09:53:56,420 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:53:56 AM CEST
+, err : 
+2012-07-04 09:53:56,424 DEBUG history saved!
+2012-07-04 09:53:56,536 DEBUG history not saved!
+2012-07-04 09:53:56,536 DEBUG FancyJobRunner : finished
+2012-07-04 09:54:10,179 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:54:10,182 DEBUG Entering the job runner
+2012-07-04 09:54:10,234 DEBUG history start status not sent!
+2012-07-04 09:54:10,245 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:54:10 AM CEST
+, err : 
+2012-07-04 09:54:10,249 DEBUG history saved!
+2012-07-04 09:54:10,355 DEBUG history not saved!
+2012-07-04 09:54:10,355 DEBUG FancyJobRunner : finished
+2012-07-04 09:57:18,836 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 09:57:18,839 DEBUG Entering the job runner
+2012-07-04 09:57:18,893 DEBUG history start status not sent!
+2012-07-04 09:57:18,905 DEBUG trying to save ending state out : Wednesday, July  4, 2012  9:57:18 AM CEST
+, err : 
+2012-07-04 09:57:18,908 DEBUG history saved!
+2012-07-04 09:57:18,954 DEBUG history not saved!
+2012-07-04 09:57:18,955 DEBUG FancyJobRunner : finished
+2012-07-04 10:02:21,333 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 10:02:21,337 DEBUG Entering the job runner
+2012-07-04 10:02:21,399 DEBUG history start status not sent!
+2012-07-04 10:02:21,409 DEBUG trying to save ending state out : Wednesday, July  4, 2012 10:02:21 AM CEST
+, err : 
+2012-07-04 10:02:21,414 DEBUG history saved!
+2012-07-04 10:02:21,533 DEBUG history not saved!
+2012-07-04 10:02:21,533 DEBUG FancyJobRunner : finished
+2012-07-04 10:10:03,449 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 10:10:03,452 DEBUG Entering the job runner
+2012-07-04 10:10:03,518 DEBUG history start status not sent!
+2012-07-04 10:10:03,529 DEBUG trying to save ending state out : Wednesday, July  4, 2012 10:10:03 AM CEST
+, err : 
+2012-07-04 10:10:03,533 DEBUG history saved!
+2012-07-04 10:10:03,591 DEBUG history not saved!
+2012-07-04 10:10:03,591 DEBUG FancyJobRunner : finished
+2012-07-04 10:13:08,538 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 10:13:08,541 DEBUG Entering the job runner
+2012-07-04 10:13:08,607 DEBUG history start status not sent!
+2012-07-04 10:13:08,618 DEBUG trying to save ending state out : Wednesday, July  4, 2012 10:13:08 AM CEST
+, err : 
+2012-07-04 10:13:08,622 DEBUG history saved!
+2012-07-04 10:13:08,690 DEBUG history not saved!
+2012-07-04 10:13:08,690 DEBUG FancyJobRunner : finished
+2012-07-04 10:23:15,423 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 10:23:15,426 DEBUG Entering the job runner
+2012-07-04 10:23:54,519 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 10:23:54,522 DEBUG Entering the job runner
+2012-07-04 10:23:54,576 DEBUG history start status not sent!
+2012-07-04 10:23:54,587 DEBUG trying to save ending state out : Wednesday, July  4, 2012 10:23:54 AM CEST
+, err : 
+2012-07-04 10:23:54,591 DEBUG history saved!
+2012-07-04 10:23:54,689 DEBUG history not saved!
+2012-07-04 10:23:54,689 DEBUG FancyJobRunner : finished
+2012-07-04 10:24:42,006 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 10:24:42,009 DEBUG Entering the job runner
+2012-07-04 10:24:42,062 DEBUG history start status not sent!
+2012-07-04 10:24:42,072 DEBUG trying to save ending state out : Wednesday, July  4, 2012 10:24:42 AM CEST
+, err : 
+2012-07-04 10:24:42,076 DEBUG history saved!
+2012-07-04 10:24:42,090 DEBUG history not saved!
+2012-07-04 10:24:42,090 DEBUG FancyJobRunner : finished
+2012-07-04 11:21:00,951 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 11:21:00,954 DEBUG Entering the job runner
+2012-07-04 11:21:01,022 DEBUG history start status not sent!
+2012-07-04 11:21:01,032 DEBUG trying to save ending state out : Wed Jul  4 11:21:01 CEST 2012
+, err : 
+2012-07-04 11:21:01,045 DEBUG history saved!
+2012-07-04 11:21:01,289 DEBUG history not saved!
+2012-07-04 11:21:01,289 DEBUG FancyJobRunner : finished
+2012-07-04 11:22:00,565 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 11:22:00,568 DEBUG Entering the job runner
+2012-07-04 11:22:00,621 DEBUG history start status not sent!
+2012-07-04 11:22:00,631 DEBUG trying to save ending state out : Wed Jul  4 11:22:00 CEST 2012
+, err : 
+2012-07-04 11:22:00,636 DEBUG history saved!
+2012-07-04 11:22:00,662 DEBUG history not saved!
+2012-07-04 11:22:00,662 DEBUG FancyJobRunner : finished
+2012-07-04 11:23:00,812 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 11:23:00,815 DEBUG Entering the job runner
+2012-07-04 11:23:00,869 DEBUG history start status not sent!
+2012-07-04 11:23:00,879 DEBUG trying to save ending state out : Wed Jul  4 11:23:00 CEST 2012
+, err : 
+2012-07-04 11:23:00,908 DEBUG history saved!
+2012-07-04 11:23:00,924 DEBUG history not saved!
+2012-07-04 11:23:00,924 DEBUG FancyJobRunner : finished
+2012-07-04 17:04:34,707 ERROR job with no id running no command |  Usage: FancyTaskRunner.py id(0 by default) command
+2012-07-04 17:18:55,528 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 17:18:55,531 DEBUG Entering the job runner
+2012-07-04 17:18:55,563 DEBUG history start status not sent!
+2012-07-04 17:18:55,574 DEBUG trying to save ending state out : Wednesday, July  4, 2012  5:18:55 PM CEST
+, err : 
+2012-07-04 17:18:55,585 DEBUG history saved!
+2012-07-04 17:18:55,614 DEBUG FancyJobRunner : finished
+2012-07-04 17:22:46,341 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 17:22:46,344 DEBUG Entering the job runner
+2012-07-04 17:22:46,395 DEBUG history start status not sent!
+2012-07-04 17:22:46,405 DEBUG trying to save ending state out : Wednesday, July  4, 2012  5:22:46 PM CEST
+, err : 
+2012-07-04 17:22:46,414 DEBUG history saved!
+2012-07-04 17:22:46,447 DEBUG FancyJobRunner : finished
+2012-07-04 17:23:15,333 DEBUG job id : 1 running command : /tmp/e.sh 
+2012-07-04 17:23:15,336 DEBUG Entering the job runner
+2012-07-04 17:23:15,376 DEBUG history start status not sent!
+2012-07-04 17:23:15,385 DEBUG trying to save ending state out : Wednesday, July  4, 2012  5:23:15 PM CEST
+, err : 
+2012-07-04 17:23:15,405 DEBUG history saved!
+2012-07-04 17:23:15,434 DEBUG FancyJobRunner : finished

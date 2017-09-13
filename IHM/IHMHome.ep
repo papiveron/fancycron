@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Untitled Page</Property><Property name="id">1331048101439_8438</Property><Property name="width">924</Property><Property name="height">765</Property><Property name="dimBackground">false</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:RoundedRect" transform="matrix(1, 0, 0, 1, 175, 120)"><p:metadata><p:property name="box"><![CDATA[615,390]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="radius"><![CDATA[0,0]]></p:property><p:property name="textPadding"><![CDATA[0,46]]></p:property><p:property name="fillColor"><![CDATA[#4388CCFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA['Liberation Sans'|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+
+            <defs>
+                <rect width="615" height="390" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(67, 136, 204); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" p:name="rrRect" id="43778f03d01541d29fb9dc714ef569f5" transform="translate(0)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="shadingFilter" id="c4ba1bbb1c3645468e54e51838c7fd41">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#43778f03d01541d29fb9dc714ef569f5" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" p:filter="url(#c4ba1bbb1c3645468e54e51838c7fd41)" style="opacity: 0.5; visibility: hidden;" p:heavy="true" p:name="bgCopy" id="c6a77e6c8dde4166b658b2e956cf61fa"/>
+            <use xlink:href="#43778f03d01541d29fb9dc714ef569f5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="46" y="195" width="523" height="0" p:name="text" id="1e8a6fe94069412a88016f272e0e8974" style="font-family: 'Liberation Sans'; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"/></foreignObject><path id="1e8a6fe94069412a88016f272e0e8974_underline" style="fill: none; stroke-width: 1px; visibility: hidden;"/>
+        </g></Content></Page></Pages></Document>

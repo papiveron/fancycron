@@ -1,0 +1,56 @@
+<!--##doc-module: FancyCron Login page template, use to generate Login class source  code
+##Made by Eugene NGONTANG-->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Login Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="styles/fancycron.css" type="text/css" media="screen"/>
+</head>
+<body>
+<div class='login_header'>
+<h2>Login to FancyCron System</h2>
+<br/>
+<table width=100%>
+<tr>
+<td style="text-align: center; vertical-align: middle;">
+<img src="images/logo-bouygues.png" height="100" style='align:center'> </img>
+</td>
+</tr>
+</table>
+<!--img src="images/logo-bouygues.png" height="100" style='align:center'--> 
+<!--hr class='login'-->
+</div>
+<div class='login_center'>
+<form method="POST" action="HomeTemplate">
+  <input type="text" name="username" size="25" /><b> UserName</b><br/><br/>
+  <input type="password" name="password" size="25" /><b> Password</b><br/>
+  <input type="checkbox" name="remember" value="Remember me"/> Remember me 
+	<br/><br/><br/><br/><br/><br/><br/><br/>
+
+  <table top=20px width=80% align='center'>
+	<tr>
+	<td width=50%>
+		<div style='float:left'>
+	<a href="RegisterTemplate">Register new account</a>
+		</div>
+	</td>
+	<td width=50%>
+		<div style='float:right'>
+		   <b><input type="submit" value="Login"  size='15' name='login'/></b>
+		</div>
+	</td>
+	</tr>
+	</table>
+</form>
+</div>
+<div class='footer'>
+<hr class='author'>
+ Powered by <a href="http://www.fancycron.com">FancyCron</a> &copy; 2011-2012 Eug&egrave;ne NGONTANG
+</div>
+</body>
+</html>
+

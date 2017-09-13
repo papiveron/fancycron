@@ -1,0 +1,37 @@
+Ce  dossier  contient  les  templates  pour  les  documents  LaTeX  et
+LaTeX/Beamer ultimaade. 
+
+Ce fichier regroupe quelques informations utiles à leur sujet.
+
+Auteurs:
+
+  Beamer Ultimaade theme
+    Eugène NGONTANG <ngonta_e@epitech.net>
+
+  Ultimaade LaTeX documentclass
+    Eugène NGONTANG <ngonta_e@epitech.net>
+
+
+Dépendances:
+
+L'ensemble  est prévu  pour  marcher avec  texlive.  Ca devrait  aussi
+fonctionner avec miktex ou autre, mais ce n'est pas testé.
+
+Dépendances particulières :
+
+  Beamer ultimaade theme
+    Beamer (of course)
+
+  ultimaade LaTeX documentclass
+    tocloft.sty (paquet texlive-latex-extra sous Debian)
+
+
+
+Système de build:
+
+Dans chaque  dossier un Makefile.template est à  votre disposition. Il
+suffit d'y renseigner le TARGETS avec le nom du pdf à produire, et les
+DEPS  avec  les fichiers  dont  dépend  le  pdf (images  inclues  avec
+\includegraphics, codes sources inclus avec \lstinputlisting, etc.).
+
+Le reste est automagique.

@@ -1,0 +1,179 @@
+% ******************************************************************************%
+%                                                                               % 
+%         MCD_FancyCron.tex for FancyCron Project specification                 %
+%            Made by: Eugène NGONTANG <ngonta_e@epitech.net>                    %
+%                    engontan@bouyguestelecom.fr                                %
+%                                                                               % 
+% ******************************************************************************%
+
+\documentclass{bouygues-fr}
+%%\usepackage{sidecap}
+\usepackage{supertabular}
+\usepackage{longtable}
+
+% ******************************************************************************%
+%                                                                               % 
+%                                 Prologue                                      %
+%                                                                               % 
+% ******************************************************************************%
+
+\begin{document}
+
+
+
+\title{\texttt{FancyCron}}
+\subtitle{Analyse fonctionnelle}
+
+\member{Eugène NGONTANG}{ngonta_e@epitech.net}
+\member{DSI/DOQS/PFI Bougues Telecom}{engontan@bouyguestelecom.fr}
+
+%%\newpage
+
+\summary
+{
+  FancyCron est un logiciel de planification et d'exécution de tâches, pour système Linux et Windows. Le projet est né d'un besoin des administrateurs système à la DSI FAI de Bouygues Telecom.
+
+  Ces derniers se servent du gestionnaire de tâches Linux Cron, pour l'automatisation des services réguliers sur l'ensemble des serveurs de leurs infrastructures.\\
+Ils se trouvent limités dans le suivi de ces tâches, notamment par le manque d'informations pertinentes sur le déroulement de l'exécution des tâches de bout en bout.
+
+  FancyCron viendra donc répondre à une problématique de planning production, de reporting et de gestion centralisée des tâches sur leurs environnements techniques. 
+
+  Ce document constitue le document d'analyse fonctionnelle du projet. Il décrit les données du système à développer et le modèle conceptuel de données associé.
+}
+
+\maketitle
+
+\tableofcontents
+
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\circ$}
+
+\newpage
+% ******************************************************************************%
+%                                                                               % 
+%                                 Les données                                   %
+%                                                                               % 
+% ******************************************************************************%
+
+\chapter{Données}
+
+Comme types de données/entités nous aurons:
+\begin{itemize}
+  \item  \textcolor{violet}{\texttt{Les groupes métier}}, qui représentent des serveurs(hôtes) regroupé d'une même catégorie
+  \item  \textcolor{violet}{\texttt{Les hotes}}, qui sont les serveurs du parc sur lesquels tournent des \textcolor{violet}{texttt{crontab}}
+  \item  \textcolor{violet}{\texttt{Les tâches}}. Une tâche est un programme s'exécutant sur un serveur, suivant un calendrier défini
+  \item  \textcolor{violet}{\texttt{Les calendriers (schedule)}}. Ils définissent le cycle selon lequel une tâche doit s'exécuter
+  \item  \textcolor{violet}{\texttt{Les enchaînements (worflows)}}. Ils gèrent enchaînements et dépendances entre les tâches. La fonctionnalité n'est pas implémentée pour la première version du logiciel
+  \item  \textcolor{violet}{\texttt{Les utilisateurs}}. Ce sont les utilisateurs au sens système(bash sous linux par exemple)
+  \item  \textcolor{violet}{\texttt{Les dépendances}}. Ce sont des tâches dont dépendent d'autres tâches
+  \item  \textcolor{violet}{\texttt{Les historiques de tâches}}. Ils stockent journalièrement les informations sur les tâches exécutées.
+  \item  \textcolor{violet}{\texttt{Les comptes}}. Ils s'agit ici des comptes utilisateurs du logiciel même\\
+    Ils n'entrent pas réellement dans le système à mettre en place, et servent simplement à identifier qui peut ou non utiliser l'application.\\
+    A chaque utilisateur est associé un niveau/profile, lui donnant certains droits sur l'édition des paramètres du système.
+\end{itemize}
+
+\vspace{20pt}
+\chapter{Propriétés des entités et dépendances fonctionnelles}
+
+\section{Les groupes métier}
+Un groupe métier est caractérisé par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item son nom
+\end{itemize} 
+
+\section{Les hôtes}
+Un hôte est caractérisé par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item son nom
+\item son adresse ip
+\end{itemize} 
+ 
+Il est associé à un groupe métier par un \textcolor{violet}{\texttt{identifiant de groupe métier}}
+
+\section{Les utilisateurs}
+Un utilisateur est caractérisé par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item son nom
+\item son groupe(groupe au sens système)
+\end{itemize} 
+
+Il est associé à un hôte par un \textcolor{violet}{\texttt{identifiant d'hôte}}
+
+\section{Les schedules}
+Un schedule est caractérisée par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item son nom
+\item sa description
+\item une valeur de minute
+\item une valeur d'heure
+\item une valeur de jour
+\item une valeur de mois
+\item une valeur d'année
+\end{itemize} 
+
+Ces cinq dernières valeur seront représentées suivant un format et une convention à adopter dans \textcolor{violet}{\texttt{FancyCron}}
+
+\section{Les tâches}
+Une tâche est caractérisée par :
+\begin{itemize}
+\item son identifiant, qui la représente de façon unique sur le système
+\item son nom
+\item son statut(activé ou désactivé)
+\item sa description
+\item la commande à exécuter
+\item son pramétrage(arguments + options de la commande)
+\item le résultat de la dernière exécution
+\item la date de la dernière exécution
+\item la date de la prochaine exécution. Ce paramètre est mis à jour chaque fois que la tâche subit un décalage
+\item l'adresse du fichier de log
+\end{itemize} 
+ 
+Elle est associée à :
+\begin{itemize}
+\item un utilisateur par un \textcolor{violet}{\texttt{identifiant d'utilisateur}},
+\item un hôte par un \textcolor{violet}{\texttt{identifiant d'hôte}},
+\item un workflow par un \textcolor{violet}{\texttt{identifiant de workflow}}.
+\end{itemize}
+
+\section{Les historiques}
+Un historique est caractérisé par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item la dâte de début de tâche sur le système local où elle a été planifiée
+\item la dâte de fin de tâche sur le système local où elle a été planifiée
+\item le statut d'exécution de la tâche
+\item le nombre d'occurence d'exécution de la tâche pour la date correspondant à l'entrée de la table
+\end{itemize}
+
+Il est associé à une tâche par un \textcolor{violet}{\texttt{identifiant de tâche}}.
+
+\section{Les dépendances}
+Un dépendance est caractérisée par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item son nom de tâche(tâche dépendante)
+\item le critère de dépendance : terminé(exécuté et terminé), terminé avec erreur, terminer avec succès
+\end{itemize} 
+
+Elle est associée à une tâche par un \textcolor{violet}{\texttt{identifiant de tâche}}, qui représente en fait la tâche constituant la dépendance.
+
+\section{Les workflows}
+Un workflow est caractérisé par une liste de dépendances
+
+\subsection{Les comptes}
+Un compte est caractérisé par :
+\begin{itemize}
+\item son identifiant, qui le représente de façon unique sur le système
+\item son nom
+\item son mot de passe
+\item son profile
+\end{itemize} 
+
+Vous trouverez le modèle conceptuel de données à \href{https://mcp-d.admin.dolmen.bouyguestelecom.fr/fancycron/DOCS/MCD_FC.pdf}{cette adresse} et le modèle physique de données \href{https://mcp-d.admin.dolmen.bouyguestelecom.fr/fancycron/DOCS/MPD_FC.pdf}{ici}
+
+  % ******************************************************************************%
+\end{document}

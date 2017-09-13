@@ -1,0 +1,26 @@
+#! /usr/bin/python
+import cherrypy
+from LoginTemplate import LoginTemplate
+
+class LoginPage(LoginTemplate):
+        def __init__(self, title, motd, logo):
+		LoginTemplate.__init__(self)
+		self.title = title
+		self.motd = motd
+		self.logo = logo
+
+
+login = LoginPage("Login Page", "Login to FancyCron System", "/images/logo-bouygues.png")
+class Login:
+	def index():
+		return login.respond()
+	index.exposed = True
+
+cherrypy.config.update({'server.socket_host': '0.0.0.0',
+                        'server.socket_port': 8080,
+                       })
+cherrypy.quickstart(Login())
+
+#cherrypy.tree.mount(login, "/"
+#cherrypy.engine.start()
+	

@@ -1,0 +1,29 @@
+##doc-module: FancyCron Login page template, use to generate Login class source  code
+##Made by Eugene NGONTANG
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>$title</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="styles/fancycron.css" type="text/css" media="screen"/>
+</head>
+<body bgcolor="#3AD0F2">
+<div style="background:transparent; width:100%; height50%;">
+<h1>$motd</h1>
+<img src="$logo"> </img>
+</div>
+<hr  color="#CCCCCC">
+<form method="POST" action="http://YOUR_DOMAIN_HERE:81/login/login.php">
+  <input type="text" name="username" size="15" /> UserName <br/><br />
+  <input type="password" name="passwort" size="15" /> Password<br />
+    <p><input type="submit" value="Login" /></p>
+  </div>
+</form>
+<hr size='12'  color="green">
+# Powered by <a href="http://www.fancycron.com">FancyCron</a> &copy; 2011-2012 Eugene NGONTANG
+</body>
+</html>
+

@@ -1,0 +1,194 @@
+-------Messages d'erreur à creuser-----------------
+
+1) Cherrypy:
+
+Bad Request
+
+The request entity could not be decoded. The following charsets were attempted: ['utf-8']
+
+----Cherrypy decode error!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 649, in respond
+    self.body.process()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cpreqbody.py", line 949, in process
+    super(RequestBody, self).process()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cpreqbody.py", line 515, in process
+    proc(self)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cpreqbody.py", line 166, in process_urlencoded
+    "charsets were attempted: %s" % repr(entity.attempt_charsets))
+HTTPError: (400, "The request entity could not be decoded. The following charsets were attempted: ['utf-8']")
+
+----build an object from precompile cheetah template class and use it to send back an index respond.:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: index() takes no arguments (1 given)
+
+
+2) Cheetah
+
+Compilation error
+
+papi@koalab:~/projets/fancycron/src/admin$ cheetah-compile LoginTemplate.tmpl 
+Compiling LoginTemplate.tmpl -> LoginTemplate.py (backup LoginTemplate.py.bak)
+Traceback (most recent call last):
+  File "/usr/local/bin/cheetah-compile", line 3, in <module>
+    _cheetah_compile()
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/CheetahWrapper.py", line 626, in _cheetah_compile
+    CheetahWrapper().main()
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/CheetahWrapper.py", line 148, in main
+    meth()
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/CheetahWrapper.py", line 231, in compile
+    self._compileOrFill()
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/CheetahWrapper.py", line 380, in _compileOrFill
+    self._compileOrFillBundle(b)
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/CheetahWrapper.py", line 597, in _compileOrFillBundle
+    compilerSettings=compilerSettings)
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/Template.py", line 735, in compile
+    settings=(compilerSettings or {}))
+  File "/usr/local/lib/python2.6/dist-packages/Cheetah/Compiler.py", line 1588, in __init__
+    source = unicode(source)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 99: ordinal not in range(128)
+
+Problem getting images and css
+
+papi@koalab:~/projets/fancycron/src/admin$ ./Admin.py
+[18/Apr/2012:12:14:01] ENGINE Listening for SIGHUP.
+[18/Apr/2012:12:14:01] ENGINE Listening for SIGTERM.
+[18/Apr/2012:12:14:01] ENGINE Listening for SIGUSR1.
+[18/Apr/2012:12:14:01] ENGINE Bus STARTING
+CherryPy Checker:
+The Application mounted at '' has an empty config.
+
+[18/Apr/2012:12:14:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Apr/2012:12:14:01] ENGINE Started monitor thread 'Autoreloader'.
+[18/Apr/2012:12:14:01] ENGINE Serving on 0.0.0.0:8080
+[18/Apr/2012:12:14:01] ENGINE Bus STARTED
+127.0.0.1 - - [18/Apr/2012:12:14:04] "GET / HTTP/1.1" 200 1059 "" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:04] "GET /styles/fancycron.css HTTP/1.1" 404 1216 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:04] "GET /home/papi/projets/fancycron/src/admin/images/logo-bouygues.png HTTP/1.1" 404 1300 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:04] "GET / HTTP/1.1" 200 1059 "" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:04] "GET /styles/fancycron.css HTTP/1.1" 404 1216 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:04] "GET /home/papi/projets/fancycron/src/admin/images/logo-bouygues.png HTTP/1.1" 404 1300 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:05] "GET / HTTP/1.1" 200 1059 "" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:05] "GET /styles/fancycron.css HTTP/1.1" 404 1216 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:05] "GET /home/papi/projets/fancycron/src/admin/images/logo-bouygues.png HTTP/1.1" 404 1300 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:18] "GET / HTTP/1.1" 200 1059 "" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:18] "GET /styles/fancycron.css HTTP/1.1" 404 1216 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+127.0.0.1 - - [18/Apr/2012:12:14:18] "GET /home/papi/projets/fancycron/src/admin/images/logo-bouygues.png HTTP/1.1" 404 1300 "http://localhost:8080/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.16) Gecko/20120315 Iceweasel/3.5.16 (like Firefox/3.5.16)"
+
+Right.  Cherrypy is not a general purpose web server, like Apache.  ALL
+incoming requests are sent directly to your CherryPy application.  Your
+CherryPy app handles exactly one request:  /index.  Everything else gets
+a 404, including /styles/my_style.css and
+/home/papi/projets/my_project/src/admin/images/log.png.
+
+There are several solutions.  If you will only have a couple of static
+requests, you can specify in your app configuration that certain
+directories should be handles as static content:
+   http://docs.cherrypy.org/stable/progguide/files/static.html
+
+If you will have a lot of such files, it is often better to run a real
+web server, and have it route specific directories to your CherryPy app.
+
+3) Python Programming: 
+
+Research links :
+
+----Python new-style class: 
+http://docs.python.org/release/2.2.3/whatsnew/sect-rellinks.html
+
+----Cherrypy Example:
+http://tools.cherrypy.org/wiki/Cheetah
+
+----Multiprocessing tuto
+- http://www.doughellmann.com/PyMOTW/multiprocessing/communication.html
+- http://www.doughellmann.com/PyMOTW/subprocess/
+
+----XML processing
+http://www.learningpython.com/2008/05/07/elegant-xml-parsing-using-the-elementtree-module/
+
+----Django models and server tools tips
+http://stackoverflow.com/questions/3582544/django-model-choice-option-as-a-multi-select-box
+http://ilian.i-n-i.org/tag/django-models/
+http://www.turnkeylinux.org/blog/django-signals
+http://www.b-list.org/weblog/2006/jul/31/django-tips-simple-ajax-example-part-1/
+http://www.ibm.com/developerworks/opensource/library/os-django-admin/
+http://wiki.python.org/moin/XmlRpc
+http://www.themacaque.com/?p=456
+http://luisartola.com/software/2010/xmlrpc-in-five-minutes/
+http://lxml.de/tutorial.html
+http://luisartola.com/software/2010/xmlrpc-in-five-minutes/
+http://tutos-django.com/
+http://stackoverflow.com/questions/1945239/format-for-datetimefield
+http://www.packtpub.com/article/django-ecommerce-generating-pdf-reports-from-python-reportlab
+https://docs.djangoproject.com/en/dev/ref/contrib/admin/actions/
+https://docs.djangoproject.com/en/dev/topics/forms/?from=olddocs
+
+4) FancyCron Classes relationship
+
+- All admin classes are template classes or storage module classes
+- The Admin thread(Using Admin module/package) communicate directly with the storage module(database/models module)
+- When a new task is created via the application web interface, the admin module process writing data in the database using the storage module, and then notify the engine that a task has been scheduled by altering a global variable(or by sending a message ton the corresponding thread). The engine then send the scheduled task to the client via the network
+- When a task state changes, the engine send a massage to the monitor which modify the corresponding task status
+- The host table will also have a field named port, for the host port. Thus any client could listen in whichever port it wants
+- Tuto for asyncore module : http://parijatmishra.wordpress.com/2008/01/04/writing-a-server-with-pythons-asyncore-module/
+- If possible the server dispatcher will have a specific map!
+- Remember also to implement environment variable settings 
+
+
+5) FancyCron Project remain task!
+
+- Implemente Storage and databse processing | Done
+- Implement Monitor module to handle client task notifications -> XML-RPC
+- Implement the getJobList server method. It could be done directely in the Storage module | Done (with HTTP request from client side)
+- Implement the client module to test the server(main loop being working) | Things remain(Done) 
+- Implement the client TaskRunner Module | Done
+- Implement all the multiprocessing in the client side | Remain (Normally done)
+- Implement the admin module | Going on
+- Integrate the admin module to the server | Not yet done
+- TaskRunner functions : run job at specified time, send job state to the client engine, stora job information in an xml file
+- How to manage files with django (usefull for fancycron log files system) | To be seen later
+- Build rpc_client_service in client main class | Done
+- Writed remaining registed method for on the server
+- Display the job schedule in the job display list.  | Done, Host also
+- Display the job next execution time in the job display list. | Done
+- Implement History purge functionnalities
+- Remember to implement the schedule hyperlink, and the job schelued time in the jobhistory display list.
+- Implement more job filter functionnalities
+- Show the crontab line generated when a job is created | Done
+- Sqlite3 concurency
+- Implement Jobs execution reporting
+- Sgnal Client when a schedule have been modifed | Done
+- Allow job to be chaged from one user or host to another | Done
+- Do not forget to treat the case, a job have been moved from a host to another, and the old host were not alive at the time | Done
+- Do not forget to remove all the output prints in the server models and xml-rpc files
+- The crontab entry of the job will be returned after each action on the concerned job
+- Before definitively install the software on the tests machine, try to use good and right name for managed objects, and the client database name
+- Send all no yet historized job from the client | Done
+- Put Try-Catch Block in the client storage module
+- Create a remote_id field in the client job_history table | Done
+- Set a timeout to the xlm-rpc sockets, on client and server sides
+- Handle xml-rpc broken pipe connexion
+- Display job execution elapsed time on the GUI | Done
+- Problematique of non historized jobs : We do not worry because all the execution occurences of job are registred on the client side, and will be iterated in the server side. | 
+- Make try-except block to handle database acess in the server side, and remember to return 0 when any historisation action fail | Done
+- Set field named jobhistory_executing_user in the jobhistory table | Done
+- Create job in the central database for non existing job | Done
+- Create Shift action
+- Set link for execting user, host, and job, in the history list dislpay | Done, the field for use will be made after the resetting of the database
+- Set user link for job list display | Done, listdisplay up to date
+- make a listdisplay for the rest of the models | Done
+- Implement the using of host name instead of ip address on the server side | Done
+- Implement "skip" management on for solaris client module
+- Replace all using of get method by filter method in the models management
+- Implement a popup for job status field
+- Implement the export module in the client side
+
+{Altering table
+	  alter table hostgroup modify hostgroup_description varchar(200)  not null default 'Group for hosts without hosts group';
+}

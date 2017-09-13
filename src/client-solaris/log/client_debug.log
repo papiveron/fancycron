@@ -1,0 +1,315 @@
+1340981890.91   910    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982052.33   333    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982086.29   294    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982311.16   156    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982371.12   119    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982431.28   283    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982447.79   791    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982686.14   139    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982869.84   841    ERROR 1 root error parsing command_param node
+1340982869.85   845    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982957.4    404    ERROR 1 root error parsing command_param node
+1340982957.41   408    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982968.38   382    ERROR 1 root error parsing command_param node
+1340982968.39   386    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340982985.05   45    ERROR 1 root error parsing command_param node
+1340982985.05   49    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983014.99   992    ERROR 1 root error parsing command_param node
+1340983015.0    996    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983027.61   605    ERROR 1 root error parsing id node
+1340983027.61   608    ERROR 1 root error parsing name node
+1340983027.61   609    ERROR 1 root error parsing command node
+1340983027.61   609    ERROR 1 root error parsing command_param node
+1340983027.61   609    ERROR 1 root error parsing user node
+1340983027.61   609    ERROR 1 root error parsing status node
+1340983027.61   609    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983043.31   307    ERROR 1 root error parsing command_param node
+1340983043.31   311    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983082.28   284    ERROR 1 root error parsing command_param node
+1340983082.29   288    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983096.23   229    ERROR 1 root error parsing command_param node
+1340983096.23   233    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983129.72   717    ERROR 1 root error parsing command_param node
+1340983129.72   720    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983170.25   247    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983170.26   255    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983170.26   263    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983170.26   263    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983244.68   682    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983244.69   691    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983244.7    699    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983244.7    699    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983288.78   778    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983288.79   787    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983288.79   794    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983288.8    795    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983556.4    399    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983556.4    403    DEBUG 1 root cmd: echo '* * * * * /root/fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> cron.tmp
+1340983556.41   408    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983556.41   408    DEBUG 1 root cmd: crontab -e usrtest1 cron.tmp
+1340983556.42   415    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983556.42   416    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983600.11   108    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983600.11   112    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> cron.tmp
+1340983600.12   116    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983600.12   117    DEBUG 1 root cmd: crontab -e usrtest1 cron.tmp
+1340983600.12   124    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983600.12   124    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983747.73   727    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983747.73   732    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> cron.tmp
+1340983747.74   736    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983747.74   736    DEBUG 1 root cmd: crontab usrtest1 cron.tmp
+1340983747.74   744    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983747.74   744    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983785.8    799    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983785.8    803    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> cron.tmp
+1340983785.81   807    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983785.81   808    DEBUG 1 root cmd: crontab cron.tmp usrtest1
+1340983785.82   815    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983785.82   816    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983797.36   362    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983797.37   367    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> cron.tmp
+1340983797.37   371    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983797.37   371    DEBUG 1 root cmd: crontab cron.tmp usrtest1
+1340983797.38   379    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983797.38   379    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983832.2    199    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983832.2    203    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> /tmp/cron.tmp
+1340983832.21   207    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983832.21   208    DEBUG 1 root cmd: crontab /tmp/cron.tmp usrtest1
+1340983832.22   215    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983832.22   215    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340983853.7    700    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340983853.7    704    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> /tmp/cron.tmp
+1340983853.71   709    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340983853.71   709    DEBUG 1 root cmd: crontab /tmp/cron.tmp usrtest1
+1340983853.72   716    DEBUG 1 root end of crontab generation,, user : usrtest1, error : crontab: proper usage is: 
+	crontab [file | -e | -l | -r ] [user]
+
+1340983853.72   723    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340984021.54   542    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340984021.55   546    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> /tmp/cron.tmp
+1340984021.55   550    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340984021.55   551    DEBUG 1 root cmd: su usrtest1 crontab /tmp/cron.tmp
+1340984021.57   565    DEBUG 1 root end of crontab generation,, user : usrtest1, error : /usr/bin/crontab: /usr/bin/crontab: cannot execute binary file
+
+1340984021.57   566    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340984036.83   826    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340984036.83   831    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> /tmp/cron.tmp
+1340984036.84   835    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340984036.84   835    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1340984036.85   854    DEBUG 1 root end of crontab generation,, user : usrtest1, error : 
+1340984036.85   854    ERROR 1 root Error, while getting jobs list and generating crontabs
+1340984069.99   993    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1340984070.0    997    DEBUG 1 root cmd: echo '* * * * * /fancycron/client/FancyJobRunner.py 1 "/tmp/e.sh "' >> /tmp/cron.tmp
+1340984070.0    1    DEBUG 1 root end of cronjob, user : usrtest1, error : No cronjob error
+1340984070.0    2    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1340984070.03   26    DEBUG 1 root end of crontab generation,, user : usrtest1, error : 
+1340984070.04   35    ERROR 1 root Error, while getting jobs list and generating crontabs
+1341221639.24   242    ERROR 1 root Missing or wrong parameter in the configuration file : /fancycron/client/conf/client.conf
+1341223535.91   906    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341223535.95   954    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341223535.98   982    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341223536.0    4    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341223536.03   26    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341223536.05   46    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233139.31   313    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233139.36   360    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233256.29   290    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233256.33   334    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233669.01   12    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233669.1    101    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233960.27   271    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341233960.32   320    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341234279.9    902    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341234279.95   945    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341234960.41   407    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341234960.45   453    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.47   469    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.51   514    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.54   540    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.57   565    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.59   591    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.62   620    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.65   645    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.67   670    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.69   694    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.72   721    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.75   747    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.78   775    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341236777.81   805    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237054.94   942    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237054.99   989    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.02   15    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.04   40    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.07   66    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.09   90    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.12   116    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.14   140    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.17   173    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.2    198    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.22   224    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.25   249    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237055.27   274    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.4    397    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.45   452    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.48   477    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.5    503    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.53   531    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.56   560    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.59   592    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.62   618    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.65   647    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.68   679    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.71   706    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.75   749    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237342.79   788    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237360.47   471    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237360.51   513    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237420.71   706    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237420.75   752    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237480.99   992    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341237481.03   34    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.33   327    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.37   370    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.4    399    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.43   430    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.45   454    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.49   490    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.52   515    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.54   539    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.56   563    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.59   590    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.61   613    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.64   638    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341302025.66   662    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303482.61   614    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303482.65   646    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.24   243    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.31   314    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.35   353    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.38   382    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.41   406    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.43   431    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.46   457    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.48   482    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.51   507    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.53   533    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.56   558    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.59   592    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.62   618    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341303536.64   642    DEBUG 1 root end of crontab backup, user : root, error : No backup error
+1341387377.51   506    ERROR 1 root Error, while getting job_tag and alter crontabs
+1341387529.66   657    ERROR 1 root Error, while getting job_tag and alter crontabs
+1341387546.86   855    ERROR 1 root Error, while getting job_tag and alter crontabs
+1341387557.23   231    ERROR 1 root Error, while getting job_tag and alter crontabs
+1341415425.67   673    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341415425.68   677    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341415425.7    695    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341415452.22   219    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341415452.22   219    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341415452.24   237    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341415603.92   918    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341415603.92   918    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341415603.94   935    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341415861.86   859    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341415861.86   860    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341415861.88   876    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341415976.93   927    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341415976.93   928    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341415976.95   945    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341416515.41   408    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341416515.41   412    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341416515.43   430    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341416570.3    298    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341416570.3    299    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341416570.32   315    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341416643.06   57    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341416643.06   61    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341416643.08   79    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341416833.21   214    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341416833.22   215    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341416833.23   232    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341416858.27   267    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341416858.27   271    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341416858.29   288    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417077.15   149    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417077.15   149    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417077.17   166    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417183.99   989    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417183.99   989    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417184.01   6    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417245.01   11    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417245.01   12    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417245.03   28    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417293.43   431    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417293.43   432    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417293.45   449    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417339.24   236    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417339.24   236    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417339.25   253    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417381.79   794    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417381.8    798    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417381.82   816    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341417437.69   694    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341417437.69   694    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341417437.71   711    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341418615.96   959    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341418615.96   963    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341418615.98   980    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341418932.91   907    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341418932.91   912    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341418932.93   929    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341419142.06   59    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341419142.06   64    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341419142.08   82    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341419393.42   415    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341419393.42   420    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341419393.44   437    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341419435.13   133    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341419435.13   133    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341419435.15   150    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
+1341419858.24   243    DEBUG 1 root end of crontab backup, user : usrtest1, error : No backup error
+1341419858.25   248    DEBUG 1 root cmd: su usrtest1 -c "crontab /tmp/cron.tmp"
+1341419858.27   265    DEBUG 1 root end of crontab desactivation, user : usrtest1, error : crontab: can't open your crontab file.
+
